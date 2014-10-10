@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+	<head>
+		<title>CSS Cascading Example</title>
+		<link href="./css/external.css" rel="stylesheet" type="text/css" media="screen" />
+		<style>
+			/* Internal CSS */
+			.internal {
+				color: blue;
+				font-size: 2em;
+			}
+		</style>
+	</head>
+	<body>
+		<h1><abbr title="Cascading Style Sheets">CSS</abbr> Cascading Example</h1>
+		<code>No style:</code>
+		<p>This is a paragraph with only the default style.</p>
+
+		<code>External (red, 3em, bold):</code>
+		<p class="external">This is a paragraph with external style.</p>
+
+		<code>Internal (blue, 2em):</code>
+		<p class="internal">This is a paragraph with external + internal style added.</p>
+
+		<code>Inline (green):</code>
+		<p class="internal" style="color: green;">This is a paragraph with external + internal + inline style added.</p>
+		
+	</body>
+</html>

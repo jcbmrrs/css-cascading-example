@@ -1,0 +1,11 @@
+/* External CSS */
+
+body { 
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.external, .internal {
+	color: red;
+	font-size: 3em;
+	font-weight: bold;
+}
