@@ -1,4 +1,4 @@
 css cascading example
 =====================
 
-Example CSS Files for INFO 343 course
+Example of how CSS cascading works between external, internal and inline.
